@@ -1,0 +1,7 @@
+[HelloWorldJavaCompiled]
+dir = HelloWorldJavaCompiled
+exec = java -jar HelloWorldJavaCompiled/target/HelloWorld-1.0-SNAPSHOT.jar
+source = 
+include_dirs = 
+build = 
+language = Java
