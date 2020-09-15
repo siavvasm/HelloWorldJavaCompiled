@@ -12,5 +12,10 @@ public class App
 		System.out.println( "This is a simple code snippet!" );
 		System.out.println( "Hello World!" );
 		System.out.println( "This is a simple code snippet!" );
+		
+		// Call a method from a dummy object
+		DummyClass dummyClass = new DummyClass();
+		dummyClass.dummyMethod();
+		
     }
 }
