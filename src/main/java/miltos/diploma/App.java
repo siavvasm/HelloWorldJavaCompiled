@@ -17,5 +17,10 @@ public class App
 		DummyClass dummyClass = new DummyClass();
 		dummyClass.dummyMethod();
 		
+		// Additional print statements
+        System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
     }
 }
