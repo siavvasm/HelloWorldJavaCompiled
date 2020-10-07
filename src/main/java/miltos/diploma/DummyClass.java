@@ -20,5 +20,17 @@ public class DummyClass {
 		} else {
 			
 		}
+		
+		if (true) {
+			System.out.println("Inside if statement");
+		} else {
+			
+		}
+		
+		if (true) {
+			System.out.println("Inside if statement");
+		} else {
+			
+		}
 	}
 }

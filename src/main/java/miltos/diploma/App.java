@@ -22,5 +22,26 @@ public class App
 		System.out.println( "End of program!" );
 		System.out.println( "End of program!" );
 		System.out.println( "End of program!" );
+		
+		// Additional print statements
+        System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		
+		// Additional print statements
+        System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		
+		// Additional print statements
+        System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		System.out.println( "End of program!" );
+		
+		UselessClass uC = new UselessClass();
+		uC.doSomething(1, 0, 1, 0);
     }
 }
