@@ -32,5 +32,13 @@ public class DummyClass {
 		} else {
 			
 		}
+		
+		// Cyclic Dependency
+		UselessClass uC = new UselessClass();
+		uC.doSomething(1, 0, 1, 0);
 	}
+	
+    public void printSmth() {
+    	System.out.println("Cyclic Dependency");
+    }
 }

@@ -6,6 +6,8 @@ public class UselessClass {
 		
 		int var = x + y + z + k;
 		
+
+		
 		if (true) {
 			if (var > 3) {
 				System.out.println("The sum is greater than 3!");
@@ -23,5 +25,9 @@ public class UselessClass {
 		} else {
 			
 		}
+		
+		// Cyclic Dependency
+		DummyClass dummyClass = new DummyClass();
+		dummyClass.printSmth();
 	}
 }
